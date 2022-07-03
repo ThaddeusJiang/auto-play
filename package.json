@@ -1,0 +1,20 @@
+{
+  "name": "auto-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-work": "npx playwright test tests/start-work.spec.ts",
+    "end-work": "npx playwright test tests/end-work.spec.ts"
+  },
+  "keywords": [],
+  "author": "TJ",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "standard": "^17.0.0"
+  }
+}
